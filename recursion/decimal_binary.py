@@ -1,5 +1,7 @@
 # How to convert a number from decimal tp binary
 def decimalbinary(n):
+    #unintentional case
+    assert int(n) == n , 'The parameter ust be integer only'
     if n == 0:            #base case
         return 0
     else:
