@@ -12,4 +12,4 @@ def gcd(a,b):
     else:
         # recursive case 
         return gcd(b,a%b)
-print(gcd(48,18))
+print(gcd(-48,-18))
