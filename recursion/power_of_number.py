@@ -1,6 +1,7 @@
 #How to calculate power of a number using recursion
 def power(base,exp):
-    
+    #unconditional case
+    assert exp>=0 and int(exp) == exp, "The exponent must be positive integer Only!"
     #base case
     if exp == 0:
         return 1
