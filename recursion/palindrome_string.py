@@ -2,7 +2,7 @@
 
 def is_palindrome(string):
     #unintentional case
-    string = ''.join(char for char in s if char.isalnum()).lower()
+    string = ''.join(char for char in string if char.isalnum()).lower()
 
     # base case
     if len(string) <= 1 :
